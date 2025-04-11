@@ -1,0 +1,79 @@
+body {
+    background-image: linear-gradient(to right, blue, rgb(8, 8, 142), rgb(4, 4, 73), black);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-family: Monospace;
+}
+
+
+
+#card {
+    height: 400px;
+    width: 300px;
+    box-shadow: 10px 10px 20px black;
+    border-radius: 20px;
+    background-color: #FFFFFF20;
+    margin-top: 180px;
+    transition: 1s;
+    text-align: center;
+}
+
+#card:hover {
+    scale: 1.1;
+    transform: translateY(-10px);
+}
+
+#card-title {
+    color: white;
+    text-align: center;
+    font-size:xx-large;
+    
+
+}
+
+
+
+#user{
+    height: 35px;
+    width: 80%;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+    padding-left: 20px;
+}
+#user::placeholder{
+    /* color: black;
+    font-size: x-large; */
+}
+
+
+
+#password{
+    height: 35px;
+    width: 80%;
+    border-radius: 20px;
+    outline: none;
+    box-shadow: 0 0 10px black;
+    padding-left:20px ;
+}
+
+
+#btn{
+    background-color: black;
+    color: white;
+    width:70%;
+    height: 45px;
+    border-radius:20px ;
+    outline: none;
+    box-shadow:10px 10px 20px black;
+    border: black;
+    font-size: large;
+    
+}
+
+#input{
+    width: 100%;
+    text-align: center;
+    padding-bottom:30px ;
+}
